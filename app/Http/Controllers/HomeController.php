@@ -49,6 +49,6 @@ class HomeController extends Controller
             $one->update();
         }
         Session::flush();
-        return redirect('/');
+        return redirect('/'); 
     }
 }
